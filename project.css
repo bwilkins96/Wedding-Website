@@ -1,0 +1,103 @@
+body {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+
+    border-left: 150px solid rgb(255, 247, 0) ;
+    border-right: 150px solid lightblue  ;
+}
+
+.top {
+    height: 250px ;
+    width: 900px ;
+}
+
+.bottom {
+    height: 250px ;
+    width: 900px ;
+}
+
+.mid {
+    height: 700px ;
+    width: 500px ;
+    padding-bottom: 25px;
+}
+
+.photos {
+    height: 315px;
+    width: 415px
+
+}
+
+.extra {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.proposal {
+    height: 500px;
+    width:415px;
+}
+
+.linker {
+    position: fixed ;
+    background-color: rgba(255, 247, 0, 0.856);
+    border-top: 3px solid aqua;
+    border-bottom: 3px solid aqua;
+
+}
+
+.links {
+    text-decoration: none;
+    color: blue;
+    padding-left: 80px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 25px;
+    margin: 25px;
+
+    background-color: rgba(255, 247, 0, 0.4);
+    border: 2px solid green;
+}
+
+.a {
+    padding-top: 10px;
+}
+
+.helpful {
+    font-size: larger;
+    border: solid 5px  yellowgreen;
+    padding: 20px ;
+    padding-left: 20px;
+    background-color: rgba(153, 205, 50, 0.395);
+}
+
+.b {
+    text-decoration: none;
+    color: blue;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+
+    color: green;
+
+}
+
+.fb {
+    height: 40px;
+    width: 40px;
+    bottom: 10px;
+    right: 25px;
+    position: fixed;
+}
