@@ -26,8 +26,7 @@ body {
 
 .photos {
     height: 315px;
-    width: 415px
-
+    width: 415px;
 }
 
 .extra {
@@ -58,17 +57,18 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
 
     padding: 25px;
     margin: 25px;
 
     background-color: rgba(255, 247, 0, 0.4);
-    border: 2px solid green;
+    border: 2px solid rgb(1, 116, 1);
 }
 
 .a {
     padding-top: 10px;
+    color: rgb(1, 77, 1);
 }
 
 .helpful {
@@ -100,4 +100,42 @@ h2 {
     bottom: 10px;
     right: 25px;
     position: fixed;
+}
+
+.c {
+    font-size: large;
+    background-color: rgba(127, 255, 212, 0.297);
+    font-weight: bold;
+}
+
+.d {
+    padding-top: 150px;
+    padding-bottom: 15px;
+
+    height: 500px ;
+    width: 750px ;
+}
+
+.picPage {
+    background-color: rgba(0, 255, 255, 0.11);
+}
+
+.gray {
+    color:rgb(86, 86, 86)
+}
+
+.com {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.guest {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
 }
