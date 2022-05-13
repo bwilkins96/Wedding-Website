@@ -76,15 +76,20 @@ body {
 
 .helpful {
     font-size: x-large;
-    border: solid 5px  yellowgreen;
+    border: solid 7px  rgb(210, 255, 29);
     padding: 20px ;
     padding-left: 20px;
-    background-color: rgba(153, 205, 50, 0.395);
+    background-color: rgba(32, 113, 0, 0.795);
 }
 
 .b {
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 229, 255);
+}
+
+.b2 {
+    text-decoration: none;
+    color: rgb(238, 255, 0);
 }
 
 h1 {
