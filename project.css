@@ -47,7 +47,10 @@ body {
     background-color: rgba(255, 247, 0, 0.856);
     border-top: 3px solid aqua;
     border-bottom: 3px solid aqua;
+}
 
+.links:hover {
+    font-weight: bold;
 }
 
 .links {
@@ -80,6 +83,7 @@ body {
     padding: 20px ;
     padding-left: 20px;
     background-color: rgba(32, 113, 0, 0.795);
+    list-style: none;
 }
 
 .b {
@@ -90,6 +94,14 @@ body {
 .b2 {
     text-decoration: none;
     color: rgb(238, 255, 0);
+}
+
+.b:hover {
+    font-weight: bold;
+}
+
+.b2:hover {
+    font-weight: bold;
 }
 
 h1 {
