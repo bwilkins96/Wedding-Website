@@ -6,17 +6,19 @@ body {
 
     border-left: 150px solid rgb(255, 247, 0) ;
     border-right: 150px solid lightblue  ;
+
+    background-color: rgb(252,252,252);
 }
 
 .top {
-    height: 250px ;
-    width: 900px ;
+    max-height: 250px;
+    width: 80% ;
     padding-top: 25px;
 }
 
 .bottom {
-    height: 250px ;
-    width: 900px ;
+    max-height: 250px ;
+    width: 80% ;
 }
 
 .mid {
@@ -28,22 +30,41 @@ body {
 .photos {
     height: 350px;
     width: 450px;
+
+    transition: 1s;
+}
+
+.photos:hover {
+    height: 525px;
+    width: 675px;
 }
 
 .extra {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr ;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
 }
 
 .proposal {
     height: 500px;
     width:415px;
     padding-top: 70px;
+
+    transition: 1s;
+}
+
+.proposal:hover {
+    height: 750px;
+    width: 622px;
 }
 
 .linker {
     position: fixed ;
+    min-width: 60%;
+    display: flex;
+    justify-content: space-around;
     background-color: rgba(255, 247, 0, 0.856);
     border-top: 3px solid aqua;
     border-bottom: 3px solid aqua;
@@ -56,7 +77,6 @@ body {
 .links {
     text-decoration: none;
     color: blue;
-    padding-left: 80px;
     font-size: x-large;
 }
 
@@ -70,6 +90,10 @@ body {
 
     background-color: rgba(255, 247, 0, 0.4);
     border: 2px solid rgb(1, 116, 1);
+}
+
+.checkbox.a > p {
+    padding: 0;
 }
 
 .a {
@@ -104,14 +128,14 @@ body {
     font-weight: bold;
 }
 
-h1 {
+h1, h2 {
     color: green;
+    display: flex;
+    justify-content: center;
 }
 
-h2 {
-
-    color: green;
-
+p {
+    padding: 0 15px;
 }
 
 .fb {
@@ -120,6 +144,13 @@ h2 {
     bottom: 10px;
     right: 25px;
     position: fixed;
+
+    transition: 0.5s;
+}
+
+.fb:hover {
+    height: 80px;
+    width: 80px;
 }
 
 .c {
@@ -134,6 +165,13 @@ h2 {
 
     height: 500px ;
     width: 750px ;
+
+    transition: 1s;
+}
+
+.d:hover {
+    height: 750px;
+    width: 1125px;
 }
 
 .picPage {
